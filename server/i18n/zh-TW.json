@@ -1,51 +1,51 @@
 [
     {
         "id": "April",
-        "translation": "四月"
+        "translation": "4 月"
     },
     {
         "id": "August",
-        "translation": "八月"
+        "translation": "8 月"
     },
     {
         "id": "December",
-        "translation": "十二月"
+        "translation": "12 月"
     },
     {
         "id": "February",
-        "translation": "二月"
+        "translation": "2 月"
     },
     {
         "id": "January",
-        "translation": "一月"
+        "translation": "1 月"
     },
     {
         "id": "July",
-        "translation": "七月"
+        "translation": "7 月"
     },
     {
         "id": "June",
-        "translation": "六月"
+        "translation": "6 月"
     },
     {
         "id": "March",
-        "translation": "三月"
+        "translation": "3 月"
     },
     {
         "id": "May",
-        "translation": "五月"
+        "translation": "5 月"
     },
     {
         "id": "November",
-        "translation": "十一月"
+        "translation": "11 月"
     },
     {
         "id": "October",
-        "translation": "十月"
+        "translation": "10 月"
     },
     {
         "id": "September",
-        "translation": "九月"
+        "translation": "9 月"
     },
     {
         "id": "api.admin.add_certificate.array.app_error",
@@ -980,7 +980,7 @@
     {
         "id": "api.email_batching.send_batched_email_notification.subject",
         "translation": {
-            "other": "[{{.SiteName}}] {{.Year}} {{.Month}} {{.Day}} 的新通知"
+            "other": "[{{.SiteName}}] {{.Year}} 年 {{.Month}} {{.Day}} 日的新通知"
         }
     },
     {
@@ -1401,7 +1401,7 @@
     },
     {
         "id": "api.post.update_post.permissions_time_limit.app_error",
-        "translation": "僅在 {{.timeLimit}} 秒內可以編輯訊息。請洽詢系統管理員了解詳情。"
+        "translation": "訊息僅在張貼後 {{.timeLimit}} 秒內可以編輯。請洽詢系統管理員了解詳情。"
     },
     {
         "id": "api.post.update_post.system_message.app_error",
@@ -1489,11 +1489,11 @@
     },
     {
         "id": "api.slackimport.slack_add_bot_user.email_pwd",
-        "translation": "已匯入外部整合/Slack 機器人帳號，電子郵件地址為 {{.Email}}，密碼為 {{.Password}}。\n"
+        "translation": "已匯入外部整合功能/Slack 機器人帳號，電子郵件地址為 {{.Email}}，密碼為 {{.Password}}。\n"
     },
     {
         "id": "api.slackimport.slack_add_bot_user.unable_import",
-        "translation": "無法匯入外部整合/Slack 機器人帳號 {{.Username}}。\n"
+        "translation": "無法匯入外部整合功能/Slack 機器人帳號 {{.Username}}。\n"
     },
     {
         "id": "api.slackimport.slack_add_channels.added",
@@ -1637,7 +1637,7 @@
     },
     {
         "id": "api.team.is_team_creation_allowed.domain.app_error",
-        "translation": "電子郵件地址必須來自特定的網域（例如 @example.com）。請洽詢系統管理員了解詳情。"
+        "translation": "由於使用者的電子郵件地址並非來自允許的網域，無法新增該使用者。請洽詢系統管理員了解詳情。"
     },
     {
         "id": "api.team.join_team.post_and_forget",
@@ -1645,7 +1645,7 @@
     },
     {
         "id": "api.team.join_user_to_team.allowed_domains.app_error",
-        "translation": "電子郵件地址必須來自特定的網域（例如 @example.com）。請洽詢系統管理員了解詳情。"
+        "translation": "由於使用者的電子郵件地址並非來自允許的網域，無法新增該使用者。請洽詢系統管理員了解詳情。"
     },
     {
         "id": "api.team.leave.left",
@@ -2841,19 +2841,19 @@
     },
     {
         "id": "app.notification.subject.direct.full",
-        "translation": "[{{.SiteName}}] 來自 @{{.SenderDisplayName}} 的新直接傳訊，發於 {{.Year}} {{.Month}} {{.Day}}"
+        "translation": "[{{.SiteName}}] 來自 {{.SenderDisplayName}} 的新直接傳訊，發於 {{.Year}} 年 {{.Month}} {{.Day}} 日"
     },
     {
         "id": "app.notification.subject.group_message.full",
-        "translation": "[{{.SiteName}}] {{.ChannelName}} 的新群組訊息，發於 {{.Year}} {{.Month}} {{.Day}}"
+        "translation": "[{{.SiteName}}] {{.ChannelName}} 的新群組訊息，發於 {{.Year}} 年 {{.Month}} {{.Day}} 日"
     },
     {
         "id": "app.notification.subject.group_message.generic",
-        "translation": "[{{.SiteName}}] 發於 {{.Year}} {{.Month}} {{.Day}} 的新群組訊息"
+        "translation": "[{{.SiteName}}] 發於 {{.Year}} 年 {{.Month}} {{.Day}} 日的新群組訊息"
     },
     {
         "id": "app.notification.subject.notification.full",
-        "translation": "[{{.SiteName}}] 來自 {{.TeamName}} 的通知，發於 {{.Year}} {{.Month}} {{.Day}}"
+        "translation": "[{{.SiteName}}] 來自 {{.TeamName}} 的通知，發於 {{.Year}} 年 {{.Month}} {{.Day}} 日"
     },
     {
         "id": "app.plugin.cluster.save_config.app_error",
@@ -4277,7 +4277,7 @@
     },
     {
         "id": "model.outgoing_hook.is_valid.url.app_error",
-        "translation": "回呼網址無效。每一個都必須是以 http:// or https:// 開頭的有效網址。"
+        "translation": "回呼網址無效。每一個都必須是以 http:// 或 https:// 開頭的有效網址。"
     },
     {
         "id": "model.outgoing_hook.is_valid.user_id.app_error",
@@ -5697,7 +5697,7 @@
     },
     {
         "id": "api.channel.update_channel_privacy.default_channel_error",
-        "translation": "不能將預設頻道設為私人。"
+        "translation": "不能將預設頻道設為私人頻道。"
     },
     {
         "id": "api.channel.update_channel_member_roles.guest_and_user.app_error",
@@ -8009,7 +8009,7 @@
     },
     {
         "id": "api.command_help.success",
-        "translation": "Mattermost 是一款開放源碼的平台，提供跨工具及團隊的安全通訊、協作及工作規劃。\nMattermost 包含兩大核心工具：\n\n**頻道**- 透過一對一及群組訊息，隨時與您的團隊保持聯繫。\n**[Playbooks](/playbooks)** - 建立並設定可重複使用的流程，以達成特定、可預測的結果。\n\n[檢視文件及指引]({{.HelpLink}})"
+        "translation": "Mattermost 是一款開放原始碼的平台，提供跨工具及團隊的安全通訊、協作及工作規劃。\nMattermost 包含兩大核心工具：\n\n**頻道**- 透過一對一及群組訊息，隨時與您的團隊保持聯繫。\n**[Playbooks](/playbooks)** - 建立並設定可重複使用的流程，以達成特定、可預測的結果。\n\n[檢視文件及指引]({{.HelpLink}})"
     },
     {
         "id": "app.upload.run_plugins_hook.move_fail",
@@ -8189,7 +8189,7 @@
     },
     {
         "id": "api.templates.cloud_welcome_email.add_apps_sub_info",
-        "translation": "將您的工作與 GitHub、Jira 和 Zoom 等等的工具完美整合。在應用程式市集上探索"
+        "translation": "完美整合您的工作與 GitHub、Jira 和 Zoom 等工具。在應用程式市集上探索"
     },
     {
         "id": "api.templates.cloud_welcome_email.app_market_place",
@@ -8725,7 +8725,7 @@
     },
     {
         "id": "api.templates.invite_body_footer.info",
-        "translation": "Mattermost 是一款彈性、開放源碼的傳訊平台，使安全的團隊協作成真。"
+        "translation": "Mattermost 是一款彈性、開放原始碼的傳訊平台，使安全的團隊協作成真。"
     },
     {
         "id": "api.templates.invite_body_footer.learn_more",
